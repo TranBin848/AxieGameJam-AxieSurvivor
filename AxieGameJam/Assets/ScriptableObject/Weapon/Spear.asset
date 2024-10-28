@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01137582d12eda541ac649ef171fc9ba, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8335030841389060635, guid: 2be296c46ce864b4b90a6c91b5aec0d6, type: 3}
+  damage: 4
+  speed: 8
+  cooldownDuration: 3
+  pierce: 1
+  level: 1
+  nextLevelPrefab: {fileID: 10912598991259831, guid: e6a60ae6c98cbb241b73eeae05d64744,
+    type: 3}
+  name: Bow
+  description: Auto shooting to the enmy
+  icon: {fileID: 21300000, guid: f800dbc9c4b454b43b159f0ad20f0f3e, type: 3}
